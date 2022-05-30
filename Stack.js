@@ -5,6 +5,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import Home from './Home';
 import Setting from './Setting';
+import Police from './Police';
 import {NavigationContainer} from '@react-navigation/native';
 const Stack = createStackNavigator();
 
@@ -14,6 +15,7 @@ const MyStack = () => {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Setting" component={Setting} />
+        <Stack.Screen name="Police" component={Police} />
       </Stack.Navigator>
     </NavigationContainer>
   );
