@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Text, View, Button, TouchableOpacity} from 'react-native';
-
+//functional components12
 const Setting = ({navigation, route}) => {
   const [data, setData] = useState([1, 2, 3, 4, 5]);
   const [obj1, setObj] = useState({});
