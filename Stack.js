@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Text, View, Button} from 'react-native';
 import {TextInput} from 'react-native-gesture-handler';
 import {createStackNavigator} from '@react-navigation/stack';
-
+// test data
 import Home from './Home';
 import Setting from './Setting';
 import Police from './Police';
